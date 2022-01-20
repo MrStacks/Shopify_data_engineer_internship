@@ -3,4 +3,4 @@ cv2
 glob
 pandas
 cryptography.fernet
-uuid}
+uuid

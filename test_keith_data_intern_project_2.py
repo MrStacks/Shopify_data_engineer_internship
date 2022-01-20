@@ -21,7 +21,7 @@ class TestKeithProject(unittest.TestCase):
         self.assertTrue('unique_uuid' in columns)
         
     def test_encrypt_file(self):
-        image_path = r"./best_image.png" # WTF
+        image_path = r"./best_image.png"
         image_format = "png"
         result = keith_data_intern_project_2.encrypt_file(image_path, image_format)
         self.assertTrue(type(result) is bytes)

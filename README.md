@@ -12,6 +12,6 @@ The other menu options allow you to search the images by keyword(s) or feature(s
 ________________________________________________________________
 
 Script requires the following to be installed within the Python environment
-you are running the script in: `os` `sys` `cv2` `glob``pandas` `cryptography.fernet` `uuid`
+you are running the script in: `os` `sys` `cv2` `glob` `pandas` `cryptography.fernet` `uuid`
 
 The program has been designed in a way that allows for several features and improvements. Notably, images features can be both recognized and searched via machine learning algorithms in the future. 
