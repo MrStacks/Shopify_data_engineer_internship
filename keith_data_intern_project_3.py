@@ -115,8 +115,8 @@ def image_data(image_path):
     and features for each image. Populates them into dataframe values.
     :param image_path: filepath of the image 
     '''
-    filename, file_format = os.path.splitext(image_path) #TODO I *think* this splits the pathname
-    filename = os.path.basename(filename) #TODO what does this do?
+    filename, file_format = os.path.splitext(image_path) 
+    filename = os.path.basename(filename) 
     
     user_pass = "12345"
     
