@@ -91,7 +91,7 @@ def encrypt_file(image_path, image_format):
     ''' 
     F = Fernet(get_key()) 
     image = cv2.imread(image_path)
-    img_encode = cv2.imencode('.'+image_format, image)[1].tobytes() #TODO check if tobytes() is actually being called
+    img_encode = cv2.imencode('.'+image_format, image)[1].tobytes() 
     encrypted = F.encrypt(img_encode)
     return encrypted
 
