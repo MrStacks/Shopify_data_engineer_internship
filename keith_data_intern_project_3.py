@@ -99,7 +99,6 @@ def encrypt_file(image_path, image_format):
 def get_permission():
     '''Asks user if they want to store 
     image as public or private.
-
     :returns: String indicating permission level (public/private)
     '''
     while True:
