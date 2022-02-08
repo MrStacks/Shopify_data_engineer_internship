@@ -114,7 +114,7 @@ def image_data(image_path):
     # Get image keywords, process to remove unneccesary spaces
     image_keywords = get_input("Enter the relavant keywords about this image (separate with ','): ").split(',')
     for i in range(len(image_keywords)):
-        image_keywords[i] = image_keywords[i].strip() # removes spaces on frotn and back of string
+        image_keywords[i] = image_keywords[i].strip() # removes spaces on front and back of string
     image_keywords = ",".join(image_keywords)
     
     # get image permission from the user
